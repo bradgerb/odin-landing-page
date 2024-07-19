@@ -1,1 +1,1 @@
-# odin-landing-page
+This is the Odin Landing Page project. I have just completed the skills section covering flexbox, and this will test my skills using html and css to set up a webpage.
