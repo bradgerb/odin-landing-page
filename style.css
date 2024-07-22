@@ -14,7 +14,7 @@ body {
     flex-shrink: 0;
 }
 
-.right-text {
+.header-right {
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
@@ -22,7 +22,7 @@ body {
     gap: 10px;
 }
 
-.left-text {
+.header-left{
     color: #F9faf8;
     font-size: 24px;
     display: flex;
@@ -52,7 +52,7 @@ body {
     gap: 5rem;
     padding: 20px;
     align-items: center;
-    background-color: peachpuff;
+    background-color: #1F2937;
 }
 
 .block-1-left {
@@ -60,6 +60,30 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 400px;
+    gap: 10px;
+}
+
+.title-1 {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.content-1 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    max-width: 100px;
+    border-radius: 4px;
+    padding: 8px;
+    border: 2px solid white;
+}
+
+.button-1 {
+    border: none;
 }
 
 .section-2 {
