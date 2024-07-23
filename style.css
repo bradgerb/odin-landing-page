@@ -36,7 +36,7 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer {
@@ -96,14 +96,50 @@ button {
 .section-2 {
     display: flex;
     flex-grow: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.title-2 {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.block-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 2rem;
+}
+
+.section-2-image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    align-items: center;
+}
+
+.section-2 img {
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .section-3 {
     display: flex;
     flex-grow: 1;
+    padding: 20px;
 }
 
 .section-4 {
     display: flex;
     flex-grow: 1;
+    padding: 20px;
 }
