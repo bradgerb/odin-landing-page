@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -136,6 +136,29 @@ button {
     display: flex;
     flex-grow: 1;
     padding: 20px;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.block-3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-self: center;
+}
+
+.section-3-quote {
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.section-3-sig {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
 }
 
 .section-4 {
